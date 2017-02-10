@@ -1,0 +1,42 @@
+.game-board {
+  position: relative;
+  height: 80vh;
+  width: 48vw;
+  border: 2px solid black;
+  background-color: rgb(116, 90, 158);
+}
+
+.row {
+  position: relative;
+  width: 95%;
+  height: 16%;
+  margin: 0% 2% 0% 2%;
+}
+
+.tile {
+  position: relative;
+  float: left;
+  width: 12.25%;
+  height: 90%;
+  border: 1px solid white;
+  margin: 1% 0.85% 1% 0.85%;
+}
+
+.slot {
+  margin: 0 auto;
+  height: 90%;
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 5px;
+  }
+
+.checker-player-1 {
+  border-color: #7EFA03;
+  background-color: #7EFA03
+}
+
+.checker-player-2 {
+  border-color: #f85487;
+  background-color: #f85487
+}
